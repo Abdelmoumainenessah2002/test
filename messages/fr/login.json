@@ -1,0 +1,21 @@
+{
+    "welcomeBack": "Bon retour !",
+    "signInToContinue": "Connectez-vous pour continuer votre parcours avec Mushrif",
+    "continueWithGoogle": "Continuer avec Google",
+    "continueWithFacebook": "Continuer avec Facebook",
+    "continueWithGithub": "Continuer avec GitHub",
+    "secureAuthentication": "Authentification sécurisée avec un niveau de sécurité professionnel",
+    "backToHome": "Retour à l’accueil",
+    "signIn": "Se connecter",
+    "enterCredentials": "Entrez vos identifiants pour accéder à votre tableau de bord",
+    "emailAddress": "Adresse e-mail",
+    "password": "Mot de passe",
+    "enterPassword": "Entrez votre mot de passe",
+    "rememberMe": "Se souvenir de moi",
+    "forgotPassword": "Mot de passe oublié ?",
+    "signingIn": "Connexion en cours...",
+    "signInButton": "Se connecter",
+    "orContinueWith": "Ou continuer avec",
+    "dontHaveAccount": "Vous n’avez pas de compte ?",
+    "signUp": "Créer un compte"
+  }

@@ -5,7 +5,7 @@ import path from 'path';
 
 // __define-ocg__
 export default getRequestConfig(async ({ requestLocale }) => {
-  let locale = await requestLocale || 'en';
+  const locale = await requestLocale || 'en';
 
   const localePath = path.join(process.cwd(), 'messages', locale);
   const files = fs.readdirSync(localePath);

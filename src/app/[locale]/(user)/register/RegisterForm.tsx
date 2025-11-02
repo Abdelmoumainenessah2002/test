@@ -19,12 +19,23 @@ interface RegisterFormProps {
   isRTL: boolean;
 }
 
+interface AuthState {
+  user: any;
+  isEmailVerified: boolean;
+  registerMessage: string | null;
+}
+
+// Define the shape of your root state
+interface RootState {
+  auth: AuthState;
+}
+
 
 
 const RegisterForm = ({ isRTL }: RegisterFormProps) => {
   const t = useTranslations("register");
   const dispatch: any = useDispatch();
-  const { registerMessage } = useSelector((state) => state.auth);
+  const { registerMessage } = useSelector((state: RootState) => state.auth);
   const router = useRouter()
 
   const [showPassword, setShowPassword] = useState(false);

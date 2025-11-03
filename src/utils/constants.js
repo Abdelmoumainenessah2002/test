@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const request = axios.create({
-  baseURL: "https://9039ad245429.ngrok-free.app",
+  baseURL: "https://f7c6ced59b8c.ngrok-free.app",
 });
 
 export default request;
